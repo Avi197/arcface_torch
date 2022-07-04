@@ -17,14 +17,12 @@ from utils.utils_distributed_sampler import get_dist_info, worker_init_fn
 
 
 def get_dataloader(
-    root_dir,
-    local_rank,
-    batch_size,
-    dali = False,
-    seed = 2048,
-    num_workers = 2,
-    ) -> Iterable:
-
+        root_dir,
+        local_rank,
+        batch_size,
+        dali=False,
+        seed=2048,
+        num_workers=2) -> Iterable:
     rec = os.path.join(root_dir, 'train.rec')
     idx = os.path.join(root_dir, 'train.idx')
     train_set = None
@@ -40,10 +38,10 @@ def get_dataloader(
     # Image Folder
     else:
         transform = transforms.Compose([
-             transforms.RandomHorizontalFlip(),
-             transforms.ToTensor(),
-             transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5]),
-             ])
+            transforms.RandomHorizontalFlip(),
+            transforms.ToTensor(),
+            transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5]),
+        ])
         train_set = ImageFolder(root_dir, transform)
 
     # DALI
@@ -73,6 +71,7 @@ def get_dataloader(
     )
 
     return train_loader
+
 
 class BackgroundGenerator(threading.Thread):
     def __init__(self, generator, local_rank, max_prefetch=6):
@@ -189,11 +188,11 @@ class SyntheticDataset(Dataset):
 
 
 def dali_data_iter(
-    batch_size: int, rec_file: str, idx_file: str, num_threads: int,
-    initial_fill=32768, random_shuffle=True,
-    prefetch_queue_depth=1, local_rank=0, name="reader",
-    mean=(127.5, 127.5, 127.5), 
-    std=(127.5, 127.5, 127.5)):
+        batch_size: int, rec_file: str, idx_file: str, num_threads: int,
+        initial_fill=32768, random_shuffle=True,
+        prefetch_queue_depth=1, local_rank=0, name="reader",
+        mean=(127.5, 127.5, 127.5),
+        std=(127.5, 127.5, 127.5)):
     """
     Parameters:
     ----------
@@ -214,7 +213,7 @@ def dali_data_iter(
     condition_flip = fn.random.coin_flip(probability=0.5)
     with pipe:
         jpegs, labels = fn.readers.mxnet(
-            path=rec_file, index_path=idx_file, initial_fill=initial_fill, 
+            path=rec_file, index_path=idx_file, initial_fill=initial_fill,
             num_shards=world_size, shard_id=rank,
             random_shuffle=random_shuffle, pad_last_batch=False, name=name)
         images = fn.decoders.image(jpegs, device="mixed", output_type=types.RGB)

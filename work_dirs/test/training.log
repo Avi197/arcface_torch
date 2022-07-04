@@ -1,0 +1,239 @@
+Training: 2022-06-30 11:31:54,791-rank_id: 0
+Training: 2022-06-30 13:54:12,274-rank_id: 0
+Training: 2022-06-30 13:58:51,443-rank_id: 0
+Training: 2022-06-30 15:07:01,969-rank_id: 0
+Training: 2022-06-30 15:07:04,414-: margin_list              [1.0, 0.5, 0.0]
+Training: 2022-06-30 15:07:04,414-: network                  r50
+Training: 2022-06-30 15:07:04,414-: resume                   False
+Training: 2022-06-30 15:07:04,414-: save_all_states          False
+Training: 2022-06-30 15:07:04,414-: output                   work_dirs/test
+Training: 2022-06-30 15:07:04,414-: embedding_size           512
+Training: 2022-06-30 15:07:04,414-: sample_rate              1.0
+Training: 2022-06-30 15:07:04,414-: interclass_filtering_threshold0
+Training: 2022-06-30 15:07:04,414-: fp16                     True
+Training: 2022-06-30 15:07:04,414-: batch_size               128
+Training: 2022-06-30 15:07:04,414-: optimizer                sgd
+Training: 2022-06-30 15:07:04,414-: lr                       0.1
+Training: 2022-06-30 15:07:04,414-: momentum                 0.9
+Training: 2022-06-30 15:07:04,414-: weight_decay             0.0005
+Training: 2022-06-30 15:07:04,414-: verbose                  2000
+Training: 2022-06-30 15:07:04,414-: frequent                 10
+Training: 2022-06-30 15:07:04,414-: dali                     False
+Training: 2022-06-30 15:07:04,414-: seed                     2048
+Training: 2022-06-30 15:07:04,414-: num_workers              2
+Training: 2022-06-30 15:07:04,415-: rec                      /opt/data/face_id/faces_umd
+Training: 2022-06-30 15:07:04,415-: num_classes              93431
+Training: 2022-06-30 15:07:04,415-: num_image                5179510
+Training: 2022-06-30 15:07:04,415-: num_epoch                20
+Training: 2022-06-30 15:07:04,415-: warmup_epoch             0
+Training: 2022-06-30 15:07:04,415-: val_targets              ['lfw', 'cfp_fp', 'agedb_30']
+Training: 2022-06-30 15:07:04,415-: total_batch_size         128
+Training: 2022-06-30 15:07:04,415-: warmup_step              0
+Training: 2022-06-30 15:07:04,415-: total_step               809280
+Training: 2022-06-30 15:21:58,693-rank_id: 0
+Training: 2022-06-30 15:22:01,387-: margin_list              [1.0, 0.5, 0.0]
+Training: 2022-06-30 15:22:01,388-: network                  r50
+Training: 2022-06-30 15:22:01,388-: resume                   False
+Training: 2022-06-30 15:22:01,388-: save_all_states          False
+Training: 2022-06-30 15:22:01,388-: output                   work_dirs/test
+Training: 2022-06-30 15:22:01,388-: embedding_size           512
+Training: 2022-06-30 15:22:01,388-: sample_rate              1.0
+Training: 2022-06-30 15:22:01,388-: interclass_filtering_threshold0
+Training: 2022-06-30 15:22:01,389-: fp16                     True
+Training: 2022-06-30 15:22:01,389-: batch_size               128
+Training: 2022-06-30 15:22:01,389-: optimizer                sgd
+Training: 2022-06-30 15:22:01,389-: lr                       0.1
+Training: 2022-06-30 15:22:01,389-: momentum                 0.9
+Training: 2022-06-30 15:22:01,389-: weight_decay             0.0005
+Training: 2022-06-30 15:22:01,389-: verbose                  2000
+Training: 2022-06-30 15:22:01,389-: frequent                 10
+Training: 2022-06-30 15:22:01,390-: dali                     False
+Training: 2022-06-30 15:22:01,390-: seed                     2048
+Training: 2022-06-30 15:22:01,390-: num_workers              2
+Training: 2022-06-30 15:22:01,390-: rec                      /opt/data/face_id/faces_umd
+Training: 2022-06-30 15:22:01,390-: num_classes              93431
+Training: 2022-06-30 15:22:01,390-: num_image                5179510
+Training: 2022-06-30 15:22:01,390-: num_epoch                20
+Training: 2022-06-30 15:22:01,391-: warmup_epoch             0
+Training: 2022-06-30 15:22:01,391-: val_targets              ['lfw', 'cfp_fp', 'agedb_30']
+Training: 2022-06-30 15:22:01,391-: total_batch_size         128
+Training: 2022-06-30 15:22:01,391-: warmup_step              0
+Training: 2022-06-30 15:22:01,391-: total_step               809280
+Training: 2022-06-30 15:25:18,469-rank_id: 0
+Training: 2022-06-30 15:25:21,223-: margin_list              [1.0, 0.5, 0.0]
+Training: 2022-06-30 15:25:21,223-: network                  r50
+Training: 2022-06-30 15:25:21,223-: resume                   False
+Training: 2022-06-30 15:25:21,224-: save_all_states          False
+Training: 2022-06-30 15:25:21,224-: output                   work_dirs/test
+Training: 2022-06-30 15:25:21,224-: embedding_size           512
+Training: 2022-06-30 15:25:21,224-: sample_rate              1.0
+Training: 2022-06-30 15:25:21,224-: interclass_filtering_threshold0
+Training: 2022-06-30 15:25:21,224-: fp16                     True
+Training: 2022-06-30 15:25:21,224-: batch_size               128
+Training: 2022-06-30 15:25:21,225-: optimizer                sgd
+Training: 2022-06-30 15:25:21,225-: lr                       0.1
+Training: 2022-06-30 15:25:21,225-: momentum                 0.9
+Training: 2022-06-30 15:25:21,225-: weight_decay             0.0005
+Training: 2022-06-30 15:25:21,225-: verbose                  2
+Training: 2022-06-30 15:25:21,225-: frequent                 10
+Training: 2022-06-30 15:25:21,225-: dali                     False
+Training: 2022-06-30 15:25:21,225-: seed                     2048
+Training: 2022-06-30 15:25:21,226-: num_workers              2
+Training: 2022-06-30 15:25:21,226-: rec                      /opt/data/face_id/faces_umd
+Training: 2022-06-30 15:25:21,226-: num_classes              93431
+Training: 2022-06-30 15:25:21,226-: num_image                5179510
+Training: 2022-06-30 15:25:21,226-: num_epoch                20
+Training: 2022-06-30 15:25:21,226-: warmup_epoch             0
+Training: 2022-06-30 15:25:21,226-: val_targets              ['lfw', 'cfp_fp', 'agedb_30']
+Training: 2022-06-30 15:25:21,226-: total_batch_size         128
+Training: 2022-06-30 15:25:21,227-: warmup_step              0
+Training: 2022-06-30 15:25:21,227-: total_step               809280
+Training: 2022-06-30 15:33:09,500-rank_id: 0
+Training: 2022-06-30 15:33:12,178-: margin_list              [1.0, 0.5, 0.0]
+Training: 2022-06-30 15:33:12,178-: network                  r50
+Training: 2022-06-30 15:33:12,179-: resume                   False
+Training: 2022-06-30 15:33:12,179-: save_all_states          False
+Training: 2022-06-30 15:33:12,179-: output                   work_dirs/test
+Training: 2022-06-30 15:33:12,179-: embedding_size           512
+Training: 2022-06-30 15:33:12,179-: sample_rate              1.0
+Training: 2022-06-30 15:33:12,179-: interclass_filtering_threshold0
+Training: 2022-06-30 15:33:12,179-: fp16                     True
+Training: 2022-06-30 15:33:12,180-: batch_size               128
+Training: 2022-06-30 15:33:12,180-: optimizer                sgd
+Training: 2022-06-30 15:33:12,180-: lr                       0.1
+Training: 2022-06-30 15:33:12,180-: momentum                 0.9
+Training: 2022-06-30 15:33:12,180-: weight_decay             0.0005
+Training: 2022-06-30 15:33:12,180-: verbose                  2
+Training: 2022-06-30 15:33:12,180-: frequent                 10
+Training: 2022-06-30 15:33:12,180-: dali                     False
+Training: 2022-06-30 15:33:12,181-: seed                     2048
+Training: 2022-06-30 15:33:12,181-: num_workers              2
+Training: 2022-06-30 15:33:12,181-: rec                      /opt/data/face_id/faces_umd
+Training: 2022-06-30 15:33:12,181-: num_classes              93431
+Training: 2022-06-30 15:33:12,181-: num_image                5179510
+Training: 2022-06-30 15:33:12,181-: num_epoch                20
+Training: 2022-06-30 15:33:12,181-: warmup_epoch             0
+Training: 2022-06-30 15:33:12,181-: val_targets              ['lfw', 'cfp_fp', 'agedb_30']
+Training: 2022-06-30 15:33:12,182-: total_batch_size         128
+Training: 2022-06-30 15:33:12,182-: warmup_step              0
+Training: 2022-06-30 15:33:12,182-: total_step               809280
+Training: 2022-06-30 15:33:34,229-Reducer buckets have been rebuilt in this iteration.
+Training: 2022-07-01 11:01:27,745-rank_id: 0
+Training: 2022-07-01 11:01:30,415-: margin_list              [1.0, 0.5, 0.0]
+Training: 2022-07-01 11:01:30,416-: network                  r50
+Training: 2022-07-01 11:01:30,416-: resume                   False
+Training: 2022-07-01 11:01:30,416-: save_all_states          False
+Training: 2022-07-01 11:01:30,416-: output                   work_dirs/test
+Training: 2022-07-01 11:01:30,416-: embedding_size           512
+Training: 2022-07-01 11:01:30,416-: sample_rate              1.0
+Training: 2022-07-01 11:01:30,416-: interclass_filtering_threshold0
+Training: 2022-07-01 11:01:30,417-: fp16                     True
+Training: 2022-07-01 11:01:30,417-: batch_size               128
+Training: 2022-07-01 11:01:30,417-: optimizer                sgd
+Training: 2022-07-01 11:01:30,417-: lr                       0.1
+Training: 2022-07-01 11:01:30,417-: momentum                 0.9
+Training: 2022-07-01 11:01:30,417-: weight_decay             0.0005
+Training: 2022-07-01 11:01:30,417-: verbose                  2000
+Training: 2022-07-01 11:01:30,417-: frequent                 10
+Training: 2022-07-01 11:01:30,418-: dali                     False
+Training: 2022-07-01 11:01:30,418-: seed                     2048
+Training: 2022-07-01 11:01:30,418-: num_workers              2
+Training: 2022-07-01 11:01:30,418-: rec                      /opt/data/face_id/faces_umd
+Training: 2022-07-01 11:01:30,418-: num_classes              93431
+Training: 2022-07-01 11:01:30,418-: num_image                5179510
+Training: 2022-07-01 11:01:30,418-: num_epoch                20
+Training: 2022-07-01 11:01:30,418-: warmup_epoch             0
+Training: 2022-07-01 11:01:30,419-: val_targets              ['lfw', 'cfp_fp', 'agedb_30']
+Training: 2022-07-01 11:01:30,419-: total_batch_size         128
+Training: 2022-07-01 11:01:30,419-: warmup_step              0
+Training: 2022-07-01 11:01:30,419-: total_step               809280
+Training: 2022-07-01 11:03:28,020-rank_id: 0
+Training: 2022-07-01 11:03:30,698-: margin_list              [1.0, 0.5, 0.0]
+Training: 2022-07-01 11:03:30,698-: network                  r50
+Training: 2022-07-01 11:03:30,698-: resume                   False
+Training: 2022-07-01 11:03:30,698-: save_all_states          False
+Training: 2022-07-01 11:03:30,699-: output                   work_dirs/test
+Training: 2022-07-01 11:03:30,699-: embedding_size           512
+Training: 2022-07-01 11:03:30,699-: sample_rate              1.0
+Training: 2022-07-01 11:03:30,699-: interclass_filtering_threshold0
+Training: 2022-07-01 11:03:30,699-: fp16                     True
+Training: 2022-07-01 11:03:30,699-: batch_size               128
+Training: 2022-07-01 11:03:30,699-: optimizer                sgd
+Training: 2022-07-01 11:03:30,700-: lr                       0.1
+Training: 2022-07-01 11:03:30,700-: momentum                 0.9
+Training: 2022-07-01 11:03:30,700-: weight_decay             0.0005
+Training: 2022-07-01 11:03:30,700-: verbose                  2
+Training: 2022-07-01 11:03:30,700-: frequent                 10
+Training: 2022-07-01 11:03:30,700-: dali                     False
+Training: 2022-07-01 11:03:30,700-: seed                     2048
+Training: 2022-07-01 11:03:30,700-: num_workers              2
+Training: 2022-07-01 11:03:30,701-: rec                      /opt/data/face_id/faces_umd
+Training: 2022-07-01 11:03:30,701-: num_classes              93431
+Training: 2022-07-01 11:03:30,701-: num_image                5179510
+Training: 2022-07-01 11:03:30,701-: num_epoch                20
+Training: 2022-07-01 11:03:30,701-: warmup_epoch             0
+Training: 2022-07-01 11:03:30,701-: val_targets              ['lfw', 'cfp_fp', 'agedb_30']
+Training: 2022-07-01 11:03:30,701-: total_batch_size         128
+Training: 2022-07-01 11:03:30,701-: warmup_step              0
+Training: 2022-07-01 11:03:30,702-: total_step               809280
+Training: 2022-07-01 11:15:46,877-Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Training: 2022-07-01 11:16:46,378-Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Training: 2022-07-01 11:17:09,509-Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Training: 2022-07-01 11:19:16,412-rank_id: 0
+Training: 2022-07-01 11:19:19,089-: margin_list              [1.0, 0.5, 0.0]
+Training: 2022-07-01 11:19:19,090-: network                  r50
+Training: 2022-07-01 11:19:19,090-: resume                   False
+Training: 2022-07-01 11:19:19,090-: save_all_states          False
+Training: 2022-07-01 11:19:19,090-: output                   work_dirs/test
+Training: 2022-07-01 11:19:19,090-: embedding_size           512
+Training: 2022-07-01 11:19:19,090-: sample_rate              1.0
+Training: 2022-07-01 11:19:19,090-: interclass_filtering_threshold0
+Training: 2022-07-01 11:19:19,091-: fp16                     True
+Training: 2022-07-01 11:19:19,091-: batch_size               128
+Training: 2022-07-01 11:19:19,091-: optimizer                sgd
+Training: 2022-07-01 11:19:19,091-: lr                       0.1
+Training: 2022-07-01 11:19:19,091-: momentum                 0.9
+Training: 2022-07-01 11:19:19,091-: weight_decay             0.0005
+Training: 2022-07-01 11:19:19,091-: verbose                  2
+Training: 2022-07-01 11:19:19,091-: frequent                 10
+Training: 2022-07-01 11:19:19,092-: dali                     False
+Training: 2022-07-01 11:19:19,092-: seed                     2048
+Training: 2022-07-01 11:19:19,092-: num_workers              2
+Training: 2022-07-01 11:19:19,092-: rec                      /opt/data/face_id/faces_umd
+Training: 2022-07-01 11:19:19,092-: num_classes              93431
+Training: 2022-07-01 11:19:19,092-: num_image                5179510
+Training: 2022-07-01 11:19:19,092-: num_epoch                20
+Training: 2022-07-01 11:19:19,092-: warmup_epoch             0
+Training: 2022-07-01 11:19:19,092-: val_targets              ['lfw', 'cfp_fp', 'agedb_30']
+Training: 2022-07-01 11:19:19,093-: total_batch_size         128
+Training: 2022-07-01 11:19:19,093-: warmup_step              0
+Training: 2022-07-01 11:19:19,093-: total_step               809280
+Training: 2022-07-01 14:00:46,707-rank_id: 0
+Training: 2022-07-01 14:00:49,385-: margin_list              [1.0, 0.5, 0.0]
+Training: 2022-07-01 14:00:49,385-: network                  r50
+Training: 2022-07-01 14:00:49,386-: resume                   False
+Training: 2022-07-01 14:00:49,386-: save_all_states          False
+Training: 2022-07-01 14:00:49,386-: output                   work_dirs/test
+Training: 2022-07-01 14:00:49,386-: embedding_size           512
+Training: 2022-07-01 14:00:49,386-: sample_rate              1.0
+Training: 2022-07-01 14:00:49,386-: interclass_filtering_threshold0
+Training: 2022-07-01 14:00:49,386-: fp16                     True
+Training: 2022-07-01 14:00:49,386-: batch_size               128
+Training: 2022-07-01 14:00:49,387-: optimizer                sgd
+Training: 2022-07-01 14:00:49,387-: lr                       0.1
+Training: 2022-07-01 14:00:49,387-: momentum                 0.9
+Training: 2022-07-01 14:00:49,387-: weight_decay             0.0005
+Training: 2022-07-01 14:00:49,387-: verbose                  2
+Training: 2022-07-01 14:00:49,387-: frequent                 10
+Training: 2022-07-01 14:00:49,387-: dali                     False
+Training: 2022-07-01 14:00:49,387-: seed                     2048
+Training: 2022-07-01 14:00:49,388-: num_workers              2
+Training: 2022-07-01 14:00:49,388-: rec                      /opt/data/face_id/faces_umd
+Training: 2022-07-01 14:00:49,388-: num_classes              93431
+Training: 2022-07-01 14:00:49,388-: num_image                5179510
+Training: 2022-07-01 14:00:49,388-: num_epoch                20
+Training: 2022-07-01 14:00:49,388-: warmup_epoch             0
+Training: 2022-07-01 14:00:49,388-: val_targets              ['lfw', 'cfp_fp', 'agedb_30']
+Training: 2022-07-01 14:00:49,388-: total_batch_size         128
+Training: 2022-07-01 14:00:49,388-: warmup_step              0
+Training: 2022-07-01 14:00:49,389-: total_step               809280

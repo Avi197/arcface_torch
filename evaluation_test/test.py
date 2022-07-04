@@ -47,11 +47,11 @@ def main(args):
     os.makedirs(cfg.output, exist_ok=True)
     init_logging(rank, cfg.output)
 
-    summary_writer = (
-        SummaryWriter(log_dir=os.path.join(cfg.output, "tensorboard"))
-        if rank == 0
-        else None
-    )
+    # summary_writer = (
+    #     SummaryWriter(log_dir=os.path.join(cfg.output, "tensorboard"))
+    #     if rank == 0
+    #     else None
+    # )
 
     train_loader = get_dataloader(
         cfg.rec,
@@ -71,7 +71,7 @@ def main(args):
 
     backbone.train()
     # FIXME using gradient checkpoint if there are some unused parameters will cause error
-    backbone._set_static_graph()
+    # backbone._set_static_graph()
 
     margin_loss = CombinedMarginLoss(
         64,
@@ -131,14 +131,15 @@ def main(args):
         logging.info(": " + key + " " * num_space + str(value))
 
     callback_verification = CallBackVerification(
-        val_targets=cfg.val_targets, rec_prefix=cfg.rec, summary_writer=summary_writer
+        val_targets=cfg.val_targets, rec_prefix=cfg.rec,
+        # summary_writer=summary_writer
     )
     callback_logging = CallBackLogging(
         frequent=cfg.frequent,
         total_step=cfg.total_step,
         batch_size=cfg.batch_size,
         start_step=global_step,
-        writer=summary_writer
+        # writer=summary_writer
     )
 
     loss_am = AverageMeter()

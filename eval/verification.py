@@ -1,4 +1,4 @@
-"""Helper for evaluation on the Labeled Faces in the Wild dataset 
+"""Helper for evaluation_test on the Labeled Faces in the Wild dataset
 """
 
 # MIT License
@@ -177,7 +177,7 @@ def calculate_val_far(threshold, dist, actual_issame):
 
 
 def evaluate(embeddings, actual_issame, nrof_folds=10, pca=0):
-    # Calculate evaluation metrics
+    # Calculate evaluation_test metrics
     thresholds = np.arange(0, 4, 0.01)
     embeddings1 = embeddings[0::2]
     embeddings2 = embeddings[1::2]
@@ -195,6 +195,7 @@ def evaluate(embeddings, actual_issame, nrof_folds=10, pca=0):
                                       1e-3,
                                       nrof_folds=nrof_folds)
     return tpr, fpr, accuracy, val, val_std, far
+
 
 @torch.no_grad()
 def load_bin(path, image_size):
@@ -222,6 +223,7 @@ def load_bin(path, image_size):
             print('loading bin', idx)
     print(data_list[0].shape)
     return data_list, issame_list
+
 
 @torch.no_grad()
 def test(data_set, backbone, batch_size, nfolds=10):
@@ -319,7 +321,6 @@ def dumpR(data_set,
         pickle.dump((embeddings, issame_list),
                     f,
                     protocol=pickle.HIGHEST_PROTOCOL)
-
 
 # if __name__ == '__main__':
 #
